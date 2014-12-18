@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env zsh
 set -e
 
 if [ ! -n "$ZSH" ]; then
