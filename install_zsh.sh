@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-# Install zsh
+# Install zsh script
 set -e
 
 if [ ! -n "$ZSH" ]; then
