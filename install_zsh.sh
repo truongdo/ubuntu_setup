@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 # Install zsh script
-
+set -x 
 
 if [ ! -n "$ZSH" ]; then
   ZSH=~/.oh-my-zsh
