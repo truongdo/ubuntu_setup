@@ -1,4 +1,3 @@
-#!/bin/bash
 mkdir -p ~/.syncd
 cd ~/.syncd
 git clone https://github.com/truongdq54/syncd.git
