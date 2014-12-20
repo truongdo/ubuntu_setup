@@ -5,4 +5,4 @@ cd ~/.syncd
 if [[ -f /usr/local/bin/syncd ]]; then
     sudo rm /usr/local/bin/syncd
 fi
-sudo ln -s $PWD/syncd /usr/local/bin/syncd
+sudo ln -s $PWD/syncd /usr/bin/syncd
