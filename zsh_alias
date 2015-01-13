@@ -1,0 +1,1 @@
+alias backup_website='ssh root@truongdq.com "cd /home/www-data/web2py/applications/site; ./gitauto"'
