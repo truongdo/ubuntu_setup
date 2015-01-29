@@ -1,3 +1,8 @@
+git clone https://github.com/truongdq54/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+curl http://vim.sourceforge.net/scripts/download_script.php?src_id=4431 >> ~/.vim_runtime/my_configs.vim 
+
+echo "
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -6,4 +11,4 @@ let g:tex_flavor='latex'
 let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstopmode $*'
 set grepprg=grep\ -nH\ $*
-map <C-c> "+y
+">> ~/.vim_runtime/my_configs.vim
